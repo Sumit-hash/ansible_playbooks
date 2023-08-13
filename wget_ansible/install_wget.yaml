@@ -1,0 +1,7 @@
+- name: Ansible Playbook to install wget on ubuntu machine
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install latest version of wget
+      apt: name=wget
+
