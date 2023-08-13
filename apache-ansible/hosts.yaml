@@ -1,0 +1,10 @@
+myservers:
+  hosts:
+    server1:
+      ansible_host: 192.168.29.193
+      ansible_port: 22
+      ansible_ssh_user: ansible
+      http_host: localhost
+      http_conf: localhost.conf
+  vars:
+    http_port: "80"
